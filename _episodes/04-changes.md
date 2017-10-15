@@ -8,13 +8,6 @@ questions:
 - "How do I record notes about what changes I made and why?"
 ---
 
-To recap, when we want to add changes to our repository,
-we first need to add the changed files to the staging area
-(`git add`) and then commit the staged changes to the
-repository (`git commit`):
-
-![The Git Commit Workflow](../fig/git-committing.svg)
-
 > ## Choosing a Commit Message
 >
 > Which of the following commit messages would be most appropriate for the
