@@ -8,22 +8,6 @@ questions:
 - "How can I recover old versions of files?"
 ---
 
-It's important to remember that
-we must use the commit number that identifies the state of the repository
-*before* the change we're trying to undo.
-A common mistake is to use the number of
-the commit in which we made the change we're trying to get rid of.
-In the example below, we want to retrieve the state from before the most
-recent commit (`HEAD~1`), which is commit `f22b25e`:
-
-![Git Checkout](../fig/git-checkout.svg)
-
-So, to put it all together,
-here's how Git works in cartoon form:
-
-![http://figshare.com/articles/How_Git_works_a_cartoon/1328266](../fig/git_staging.svg)
-
-
 > ## Recovering Older Versions of a File
 >
 > Jennifer has made changes to the Python script that she has been working on for weeks, and the
